@@ -11,6 +11,9 @@ Speaking of front-end, the project mainly uses Vue.js for display and Neutralino
 *This project is conceptual and strictly educational. It is not intended for real-life military application without proper ethical evaluation and government oversight.*
 
 ## Installation
+
+*The project was primarily built on Linux (Pop_OS 24.04) environment and may work differently on OS that is not a derivative of Debian/Ubuntu or Linux in general.*
+
 **Back-end**
 1. While the planned development of back-end was supposed to be in local machine which involves establishing a `virtual environment`, we were not able to complete the project. Instead, in this project, we specifically use Kaggle's notebook to host our back-end. All modules in this project can be found in the notebook linked in the description of this project.
 
