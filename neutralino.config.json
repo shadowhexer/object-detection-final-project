@@ -12,7 +12,7 @@
   "singlePageServe": true,
   "tokenSecurity": "one-time",
   "logging": {
-    "enabled": true,
+    "enabled": false,
     "writeToLogFile": true
   },
   "extensions": [
@@ -48,9 +48,9 @@
       "fullScreen": false,
       "alwaysOnTop": true,
       "icon": "/resources/icons/appIcon.png",
-      "enableInspector": true,
+      "enableInspector": false,
       "borderless": false,
-      "maximize": true,
+      "maximize": false,
       "hidden": false,
       "resizable": true,
       "exitProcessOnClose": true
@@ -70,7 +70,7 @@
       ]
     },
     "chrome": {
-      "width": 800,
+      "width": 700,
       "height": 500,
       "args": "--user-agent=\"Neutralinojs chrome mode\"",
       "nativeBlockList": [
