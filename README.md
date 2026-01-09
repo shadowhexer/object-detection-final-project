@@ -2,7 +2,12 @@
 
 Project was done as part of final requirements for the subject CSC 126. The project uses YOLOv11m to detect `civilians` and `soldiers` from an areal camera footage. 
 
-In back-end, Python was the programming language used for model [training](https://www.kaggle.com/code/shadowhexer/yolov11-final-project) and [inference](https://www.kaggle.com/code/shadowhexer/yolov11-final-project-deployment) which is hosted in a Kaggle notebook (refer to the hyperlinked words for notebook links). The Ultralytics with ONNX Runtime GPU was used to speed up the inference. Since we lack enough time to host the model locally due to many bugs and required fixes, we decided to use Gradio to run the model online and communicate with our front-end.
+In back-end, Python was the programming language used for model 
+
+1. [training](https://www.kaggle.com/code/shadowhexer/yolov11-final-project)
+2. [inference](https://www.kaggle.com/code/shadowhexer/yolov11-final-project-deployment)
+
+which is hosted in a Kaggle notebook (refer to the hyperlinked words for notebook links). The Ultralytics with ONNX Runtime GPU was used to speed up the inference. Since we lack enough time to host the model locally due to many bugs and required fixes, we decided to use Gradio to run the model online and communicate with our front-end.
 
 Speaking of front-end, the project mainly uses Vue.js for display and Neutralinojs for bundling the project into a webapp. In order to communicate with the model, we use Gradio Client in Vue for sending and receiving requests.
 
